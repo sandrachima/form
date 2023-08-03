@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+body{
+    align-content: center;
+    background: indigo;
+   display: flex;
+   justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+
+.form-container{
+    border: 2px solid indigo;
+    width: 280px;
+    height: 330px;
+    display: inline-flex;
+    margin-left: 100px;
+    padding: 40px;
+    margin-top: 30px;
+    background: white;
+    text-indent: 5px;
+    box-shadow:  5px 3px 3px   black;
+    border-radius: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+input[type]{
+    padding: 15px;
+    display: flex;
+    margin: 20px;
+    border-radius: 5px;
+   justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form-marketing{
+    margin-left: 20px;
+}
+
+.news{
+   display: flex;
+}
+
+.submit{
+ margin-left: 60px;
+ background: indigo;
+ padding: 12px;
+  margin-top: 20px;
   color: white;
+  width: 80px;
+  font-size: 14px;
+  font-family: serif;
+
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width: 760px) {
+   
+    body{
+        align-content: center;
+        background: violet;
+       display: flex;
+       justify-content: center;
+    }
+    
+    
+    
+    .form-container{
+        border: 2px solid violet;
+        width: 230px;
+        height: 330px;
+        display: inline-flex;
+        margin-right: 13em;
+        padding: 40px;
+        margin-top: 30px;
+        background: white;
+        text-indent: 5px;
+        box-shadow:  2px 3px 3px 2px  rgb(39, 7, 39);
+        border-radius: 8px;
+    }
+    
+    
+    input[type]{
+        padding: 15px;
+        display: flex;
+        margin: 20px;
+        border-radius: 5px;
+       justify-content: space-between;
+    }
+    
+    .form-marketing{
+        margin-left: 20px;
+    }
+    
+    .news{
+       display: flex;
+    }
+    
+    .submit{
+     margin-left: 25px;
+     background: violet;
+     padding: 12px;
+      margin-top: 20px;
+      color: white;
+      width: 85px;
+      font-size: 14px;
+      font-family: serif;
+      border-radius: 5px;
+    
+
+    }
 }
